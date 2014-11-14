@@ -4,8 +4,10 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2014/15.
 
 ## Tematika
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal. Tukaj boste
-napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+Za temo projekta pri ANNP sem si izbrala dirkanje z motorji. To je šport, pri katerem dirkači tekmujejo v treh različnih kategorijah. To so Moto3, Moto2 ter najprestižnejši izmed njih, MotoGP. V svoji nalogi nameravam analizirati znamke motorjev, ki jih vozijo, zmage, ki so jih osvojili skozi leta, rezultate iz svetovnih pervenstev, rekorde, ki so jih osvojili (najhitreje prevožen krog, kolikokrat so se uvrstili na stopničke,...) ter tudi seveda države, iz katerih najboljši dirkači sveta prihajajo. 
+
+Podatki: http://en.wikipedia.org/wiki/Grand_Prix_motorcycle_racing
+         http://www.motogp.com/
 
 ## Program
 
