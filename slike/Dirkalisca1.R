@@ -5,7 +5,7 @@ ostale <- dirke < meja
 dirke <- c(dirke[!ostale], "Ostale" = sum(dirke[ostale]))
 
 pdf("slike/Dirkalisca.pdf") #naslov pdfja 
-pie(dirke, cex = 0.5, main = "Dirkališča") 
+pie(dirke, cex = 0.5, main = "Število dirk po državah") 
 dev.off() 
 
 total <- apply(WorldChampByCountry, 1, function(x) x["Total"])
