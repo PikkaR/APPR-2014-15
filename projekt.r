@@ -1,5 +1,5 @@
 # 2. faza: Obdelava, uvoz in čiščenje podatkov
-source("uvoz/uvoz.r")
+source("uvoz/uvoz.r", encoding="UTF-8")
 source("slike/GrafZmage.R", encoding="UTF-8")
 source("slike/Dirkalisca1.R", encoding="UTF-8")
 

@@ -1,5 +1,7 @@
 # 2. faza: Uvoz podatkov
 
+source("lib/xml.r")
+
 # Funkcija, ki uvozi podatke iz datoteke druzine.csv
 uvoziWinnersByNationality <- function() {
   return(read.table("podatki/WinnersByNationality.csv", sep = ",", as.is = TRUE,
@@ -40,3 +42,5 @@ uvoziDirkalisca <- function() {
 cat("Uvažam podatke o svetovnih prvakih po državah...\n")
 Dirkalisca <- uvoziDirkalisca()
 
+cat("Uvažam podatke o svetovnih prvakih...\n")
+WorldChamps <- uvozi.motogp()
