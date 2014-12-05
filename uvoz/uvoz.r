@@ -20,8 +20,7 @@ WinnersByNationality <- uvoziWinnersByNationality()
 
 uvoziWorldChampByCountry <- function() {
   return(read.table("podatki/WorldChampByCountry.csv", sep = ",", as.is = TRUE,
-                    
-                    
+                    row.names = 1,
                     header = TRUE, fileEncoding = "Windows-1250"))
 }
 
