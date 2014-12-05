@@ -28,3 +28,16 @@ uvoziWorldChampByCountry <- function() {
 # Zapišimo podatke v razpredelnico druzine.
 cat("Uvažam podatke o svetovnih prvakih po državah...\n")
 WorldChampByCountry <- uvoziWorldChampByCountry()
+
+
+uvoziDirkalisca <- function() {
+  return(read.table("podatki/Dirkalisca.csv", sep = ",", as.is = TRUE,
+                    
+                    
+                    header = TRUE, fileEncoding = "Windows-1250"))
+}
+
+# Zapišimo podatke v razpredelnico druzine.
+cat("Uvažam podatke o svetovnih prvakih po državah...\n")
+Dirkalisca <- uvoziDirkalisca()
+
