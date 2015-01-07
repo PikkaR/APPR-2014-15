@@ -23,9 +23,12 @@ gpclibPermit()
 #
 # Vrača:
 #   * zemljevid (SpatialPolygonsDataFrame) iz pobranega arhiva
-uvozi.zemljevid <- function(url, ime.zemljevida, pot.zemljevida,
-                            mapa = ".", encoding = "Windows-1250",
-                            force = FALSE) {
+uvozi.zemljevid <- function(url, ime.zemljevida, pot.zemljevida, 
+                            mapa = ".", encoding = "Windows-1250", 
+                            force = FALSE) 
+  
+  
+{
   map <- paste0(mapa, "/", ime.zemljevida)
   pot <- paste0(map, "/", pot.zemljevida)
   zip <- paste0(map, "/", ime.zemljevida, ".zip")
