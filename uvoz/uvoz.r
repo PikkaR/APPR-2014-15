@@ -104,3 +104,4 @@ cat("Uvažam statistične podatke za leto 2010...\n")
 Statistika2010 <- uvoziStatistika2010()
 
 
+

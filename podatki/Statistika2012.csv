@@ -1,28 +1,28 @@
-Points,Rider,Bike,Nation
-350,Jorge Lorenzo,Yamaha,SPA
-332,Dani Pedrosa,Honda,SPA
-254,Casey Stoner,Honda,AUS
-218,Andrea Dovizioso,Yamaha,ITA
-178,Alvaro Bautista,Honda,SPA
-163,Valentino Rossi,Ducati,ITA
-151,Cal Crutchlow,Yamaha,GBR
-135,Stefan Bradl,Honda,GER
-122,Nicky Hayden,Ducati,USA
-88,Ben Spies,Yamaha,USA
-83,Hector Barbera,Ducati,SPA
-74,Aleix Espargaro,ART,SPA
-62,Randy De Puniet,ART,FRA
-59,Karel Abraham,Ducati,CZE
-43,Michele Pirro,FTR,ITA
-35,James Ellison,ART,GBR
-28,Yonny Hernandez,BQR,COL
-27,Katsuyuki Nakasuga,Yamaha,JPN
-27,Danilo Petrucci,Ioda-Suter,ITA
-27,Colin Edwards,Suter,USA
-17,Jonathan Rea,Honda,GBR
-13,Mattia Pasini,ART,ITA
-12,Ivan Silva,BQR,SPA
-10,Toni Elias,Ducati,SPA
-3,Hiroshi Aoyama,BQR,JPN
-2,Steve Rapp,APR,USA
-1,David Salom,BQR,SPA
+Points,Rider,Bike,Nation,Times
+350,Jorge Lorenzo,Yamaha,SPA,16
+332,Dani Pedrosa,Honda,SPA,16
+254,Casey Stoner,Honda,AUS,14
+218,Andrea Dovizioso,Yamaha,ITA,18
+178,Alvaro Bautista,Honda,SPA,17
+163,Valentino Rossi,Ducati,ITA,17
+151,Cal Crutchlow,Yamaha,GBR,13
+135,Stefan Bradl,Honda,GER,14
+122,Nicky Hayden,Ducati,USA,14
+88,Ben Spies,Yamaha,USA,11
+83,Hector Barbera,Ducati,SPA,13
+74,Aleix Espargaro,ART,SPA,16
+62,Randy De Puniet,ART,FRA,13
+59,Karel Abraham,Ducati,CZE,10
+43,Michele Pirro,FTR,ITA,12
+35,James Ellison,ART,GBR,14
+28,Yonny Hernandez,BQR,COL,9
+27,Katsuyuki Nakasuga,Yamaha,JPN,2
+27,Danilo Petrucci,Ioda-Suter,ITA,12
+27,Colin Edwards,Suter,USA,11
+17,Jonathan Rea,Honda,GBR,2
+13,Mattia Pasini,ART,ITA,8
+12,Ivan Silva,BQR,SPA,11
+10,Toni Elias,Ducati,SPA,2
+3,Hiroshi Aoyama,BQR,JPN,1
+2,Steve Rapp,APR,USA,1
+1,David Salom,BQR,SPA,1
