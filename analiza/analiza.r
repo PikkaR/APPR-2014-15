@@ -15,3 +15,5 @@ plot(tabela[[1]], tabela[[4]],
      xlab = "Površina (km^2)",
      ylab = "Št. naselij")
 dev.off()
+
+
