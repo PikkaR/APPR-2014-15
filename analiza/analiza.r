@@ -16,7 +16,7 @@
 #     ylab = "Št. naselij")
 #dev.off()
 
-pdf("slike/Analiza_hitrosti.pdf")
+pdf("slike/Analiza_hitrosti.pdf", paper="a4")
 
 m <- apply(Hitrost, 1, function(x) as.numeric(x[1]))
 barplot(m, beside=TRUE, main ='Najvišja dosežena hitrost leta 2010', sub
@@ -45,7 +45,7 @@ barplot(m, beside=TRUE, main ='Najvišja dosežena hitrost leta 2014', sub
 dev.off()
 
 
-pdf("slike/Analiza_casa.pdf")
+pdf("slike/Analiza_casa.pdf", paper="a4")
 
 m <- apply(Cas, 1, function(x) as.numeric(x[1]))
 barplot(m, beside=TRUE, main ='Najhitrejši dosežen čas leta 2010', sub

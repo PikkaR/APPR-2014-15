@@ -5,6 +5,8 @@
 \usepackage{graphicx}
 \usepackage{enumerate}
 \usepackage{url}
+\usepackage{animate}
+
 
 \pagestyle{plain}
 
@@ -56,15 +58,36 @@ V tej fazi sem se lotila uvoza ter urejanja zemljevida. Ker je moja tema moto GP
 
 \section{Napredna analiza podatkov}
 
+V četrti fazi sem uvozila nove tabele. Te tabele vključujejo:
+\begin{itemize} 
+\item imena dirkališč, na katerih so potekale dirke med letoma 2010 ter 2014,
+\item dolžine dirkališč podane v kilometrih,
+\item najboljši dosežen čas na dirki na posamičnem dirkališču, podan v sekundah,
+\item največjo doseženo hitrost na dirki, merjeno v km/h.
+\end{itemize}
+
+Nato sem se odločila, da bi zaradi boljše preglednosti lahko naredila 3 grafe. Odločila sem se za stolpične grafe, saj se mi je zdelo, da je tako najlažje videti razliko med leti. K vsakemu grafu sem dodala tudi legendo, ki pojasni, da vsak stolpec prikazuje posamezno leto (od 2010 do 2014). Stolpce sem tudi obarvala z različnimi barvami.
+Prvi graf sem poimenovala Dolzina. Na njem sem primerjala dolžino dirkališč med letoma 2010 ter 2014 in ugotovila, da je večina dirkališč ostala enaka, saj so izmed 18 dirkališč spremenili progo le štirim in s tem seveda tudi dolžino dirkališča. V grafu sem na x-os nanizala imena dirkališč, na y-os pa dolžino v km.
+Drugi graf sem poimenovala Hitrost in na njem primerjala najvišjo doseženo hitrost na dirkah med letoma 2010 ter 2014 za vsako dirkališče posebej.  
+
+
+
+ %animacija za Analizo hitrosti
+\begin{figure}[H] 
+\animategraphics[controls,width=1.2\linewidth]{0.5}{../slike/Analiza_hitrosti}{0}{4}  
+\caption{Animacija, ki prikazuje največje dosežene hitrosti na posameznem dirkališču, od leta 2010 pa do leta 2014} 
+\end{figure} 
+
+ %animacija za Analizo casa
+\begin{figure}[H] 
+\animategraphics[controls,width=1.2\linewidth]{0.5}{../slike/Analiza_casa}{0}{4}  
+\caption{Animacija, ki prikazuje najhitrej[i dosežen čas na posameznem dirkališču, od leta 2010 pa do leta 2014} 
+\end{figure} 
+
+
 
 
  
-\pagebreak 
-%animacija za hitrost 
-\begin{figure}[H] 
-\animategraphics[controls,width=1.2\linewidth]{0.5}{../slike/Analiza_hitrosti}{0}{4}  
-\caption{Animacija, ki prikazuje kako se je spreminjala hitrost skozi leta} 
-\end{figure} 
 
 
 %\includegraphics{../slike/naselja.pdf}
