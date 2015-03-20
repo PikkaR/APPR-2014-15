@@ -28,13 +28,26 @@ Podatki:
 
 \section{Obdelava, uvoz in čiščenje podatkov}
 
-V temu delu sem se lotila uvoza podatkov ter seveda obdelave. Iz Wikipedije ter uradne spletne strani za motogp sem skopirala tabele ter jih uvozila. Tri tabele sem uvozila kot csv datoteko, eno pa kot html. Pri uvozu sem imela kar nekaj težav, saj so se v tabelah nahajali znaki, katere mi v R-u ni prikazalo, zato sem morala tabele malce spremeniti toda mi je s pomočjo asistentovih napotkov le uspelo. Odločila sem se za 4 tabele, saj mislim da zavzemajo najvažnejše podatke, ko govorimo o motogp. 
-Prva tabela (uvožena kot html) vsebuje podatke o vseh svetovnih prvakih, odkar se je dirkanje z motorji začelo. Vsebuje torej ime tekmovalca, državo, iz katere prihaja, letnici, kdaj je osvojil svojo prvo in zadnjo zmago na tekmovanju za svetovnega prvaka, razred v katerem je osvojil zmago (poznamo 3 razrede, ki se razlikujejo glede na moč in sestavo motorja) ter skupno število vseh osvojenih zmag. 
-Naslednja tabela je razporejena po državah, torej kolikokrat so vsi zastopniki neke države osvojili naslov svetovnega prvaka. 
-Predzadnja tabela kaže koliko tekmovalcev je dirkalo za neko državo ter kolikokrat so zmagali na dirkah, zadnja tabela pa vsebuje imena dirkališč ter držav, v kateri se ta dirkališča nahajajo ter kolikokrat se je na tem dirkališču odvila dirka. Seveda sem se po uvozu vseh teh tabel lotila tudi risanja grafov. 
+V temu delu sem se lotila uvoza podatkov ter seveda obdelave. Iz Wikipedije ter uradne spletne strani za motogp sem skopirala tabele ter jih uvozila. Tri tabele sem uvozila kot csv datoteko, eno pa kot html. Pri uvozu sem imela kar nekaj težav, saj so se v tabelah nahajali znaki, katere mi v R-u ni prikazalo, zato sem morala tabele malce spremeniti toda mi je s pomočjo asistentovih napotkov le uspelo. Odločila sem se za 4 tabele, saj mislim da zavzemajo najvažnejše podatke, ko govorimo o motogp.
 
-\bigskip
+Prva tabela (uvožena kot html), ki sem jo poimenovala WorldChamps, vsebuje podatke o vseh svetovnih prvakih, odkar se je dirkanje z motorji začelo. Vsebuje torej: 
+\begin{itemize}
+\item ime tekmovalca, 
+\item državo, iz katere prihaja, 
+\item letnici, kdaj je osvojil svojo prvo in zadnjo zmago na tekmovanju za svetovnega prvaka, 
+\item razred v katerem je osvojil zmago (poznamo 3 razrede, ki se razlikujejo glede na moč in sestavo motorja), 
+\item skupno število vseh osvojenih zmag. 
+\end{itemize}
 
+Naslednja tabela, ki sem jo poimenovala WorldChampByCountry, nam pove, kolikokrat so vsi zastopniki neke države osvojili naslov svetovnega prvaka. Prvi stolpec tabele torej vsebuje vse države, naslednji stolpci pa vse kategorije 
+
+Predzadnja tabela, imenovana WinnersByNationality, ima tri stolpce. Prvi nam pove državo, drugi pove koliko tekmovalcev je dirkalo za to državo, tretji pa kolikokrat vse skupaj so predstavniki te določene države zmagali na dirkah. 
+
+Zadnja tabela, ki sem jo poimenovala kar Dirkališča, vsebuje imena dirkališč, imena držav, v kateri se ta dirkališča nahajajo ter kolikokrat se je na tem dirkališču odvila dirka. 
+
+Seveda sem se po uvozu vseh teh tabel lotila tudi risanja grafov. 
+
+\newpage
 Prvi graf, ki je oblikovan kot pita, nam pokaže, kolikokrat so se odvile dirke v določenih državah (vrednosti sem seštela, saj imajo določene države več kot eno dirkališče). Iz njega lahko razberemo, da se je do zdaj največ dirk odvilo v Španiji, Italiji ter Nemčiji. 
 
 \includegraphics[width=\textwidth]{../slike/Dirkalisca.pdf}
@@ -80,6 +93,7 @@ Prvi graf sem poimenovala Dolzina. Na njem sem primerjala dolžino dirkališč m
 \end{center}
 
 
+ 
  %animacija za Analizo hitrosti
 \begin{figure}[H] 
 \animategraphics[controls,width=1.2\linewidth]{0.5}{../slike/Analiza_hitrosti}{0}{4}  
@@ -89,7 +103,7 @@ Prvi graf sem poimenovala Dolzina. Na njem sem primerjala dolžino dirkališč m
  %animacija za Analizo casa
 \begin{figure}[H] 
 \animategraphics[controls,width=1.2\linewidth]{0.5}{../slike/Analiza_casa}{0}{4}  
-\caption{Animacija, ki prikazuje najhitrej[i dosežen čas na posameznem dirkališču, od leta 2010 pa do leta 2014} 
+\caption{Animacija, ki prikazuje najhitrejši dosežen čas na posameznem dirkališču, od leta 2010 pa do leta 2014} 
 \end{figure} 
 
 
